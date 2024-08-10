@@ -1,0 +1,35 @@
+{
+  "name": "verboto",
+  "version": "0.0.1",
+  "description": "Verification Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiTheDev/Verboto.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "verification",
+    "security"
+  ],
+  "author": "GuiTheDev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GuiTheDev/Verboto/issues"
+  },
+  "homepage": "https://github.com/GuiTheDev/Verboto#readme",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.7",
+    "canvas": "^2.11.2",
+    "captcha-canvas": "^2.3.1",
+    "discord.js": "^14.15.3",
+    "keyv": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  }
+}
